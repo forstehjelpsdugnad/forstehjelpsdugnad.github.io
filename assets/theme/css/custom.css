@@ -1,0 +1,136 @@
+/* https://coolors.co/890309-6D6466-c5c5c5-6d6466-4c5b61 */
+.red-devil {
+    background-color: #d2050e;
+    background-color: #d2050e;
+}
+.charleston-green {
+    background-color: #6D6466;
+}
+.silver-sand {
+    background-color: #C5C5C5;
+}
+.granite-gray {
+    background-color: #6D6466;
+}
+.fieldgrau {
+    background-color: #4C5B61;
+}
+
+.grad_grey_white {
+    height: 200px;
+    margin-top: 85px;
+    background: #5e5e5e; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#5e5e5e, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#5e5e5e, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#5e5e5e, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#5e5e5e, black); /* Standard syntax (must be last) */
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
+    color: #ffffff;
+    background-color: #6D6466;
+    border-color: #6D6466;
+}
+
+#seksjon-hoved {
+    background-image: url(../../../assets/images/Bakgrunn.png);
+}
+
+#seksjon-detaljer {
+    background-color: rgb(255, 255, 255);
+}
+
+p.kr {
+    font-size: 3.125rem;
+}
+
+
+.rangeslider__fill {
+    background-color: #d2050e;
+}
+
+.rangeslider,
+.rangeslider__fill,
+.rangeslider--horizontal {
+  height: 5px;
+  width: 100%;
+
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.rangeslider__handle:active{
+	background:#850000;
+}
+
+.rangeslider__handle{
+	top:50%;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+	margin-top:0;
+	background:white;
+	position:absolute;
+	background:#d2050e;
+	border-radius:50%;
+    border: none;
+	display:inline-block;
+}
+
+.navbar-dropdown.navbar-short .mbr-table-cell,
+.navbar-dropdown .mbr-table-cell {
+    /*height: inherit;!*1.625rem;*!*/
+    height: 1.625rem;
+}
+
+.navbar .container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#seksjon-detaljer .card-img img{
+    height: 70%;
+    width: 70%;
+}
+
+#seksjon-kalkulator {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media (min-width: 544px) {
+    .container {
+        max-width: none;
+    }
+}
+
+
+
+#seksjon-info.mbr-cards-col {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    /*background: silver;*/
+}
+  @media (max-width: 767px) {
+    #seksjon-info.mbr-cards-col {
+      padding-top: 10px;
+      padding-bottom: 10px; } }
+
+#seksjon-info ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-type: none;
+    text-align: left;
+}
