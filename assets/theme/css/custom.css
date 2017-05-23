@@ -142,3 +142,16 @@ p.kr {
 #seksjon-vilkår {
     background-color: #eee;
 }
+
+#seksjon-detaljer>div>div {
+    height: 100vh !important;
+    max-height: 100vh !important;
+}
+#seksjon-detaljer>div>div img {
+    height: 90vh !important;
+    max-height: 90vh !important;
+}
+
+#footer1-2 {
+    visibility: hidden;
+}
