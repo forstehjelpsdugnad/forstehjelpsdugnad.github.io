@@ -27,41 +27,6 @@
     <!--<link rel="stylesheet" href="assets/theme/css/rangeslider.css" type="text/css">-->
     <link rel="stylesheet" href="assets/theme/css/custom.css">
 
-    <style type="text/css">
-        .wrapper {
-            background-color: #238cce;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            width: 60px;
-            margin: auto;
-        }
-
-        @media (max-width: 767px) {
-            .breakpoint-alias:before {
-                content: "XS";
-            }
-        }
-
-        @media (min-width: 768px) and (max-width: 983px) {
-            .breakpoint-alias:before {
-                content: "SM";
-            }
-        }
-
-        @media (min-width: 984px) and (max-width: 1199px) {
-            .breakpoint-alias:before {
-                content: "MD";
-            }
-        }
-
-        @media (min-width: 1200px) {
-            .breakpoint-alias:before {
-                content: "LG";
-            }
-        }
-    </style>
 
 </head>
 <body>
@@ -206,7 +171,7 @@
                                     <div class="carousel-inner vh80" role="listbox">
                                         <div class="center carousel-item active"><img src="assets/images/Skrin.png" class="vh70"/></div>
                                         <div class="center carousel-item">
-                                            <img src="assets/images/Åpnet.png" class="vh70" />
+                                            <img src="assets/images/Åpnet.png" class="vh70"/>
                                         </div>
                                         <div class="center carousel-item"><img src="assets/images/RotertInnhold.png" class="vh70"/></div>
                                         <!--<div class="mbr-section mbr-section-hero carousel-item center mbr-section-full " data-bg-video-slide="false"-->
@@ -214,29 +179,29 @@
                                         <!--</div>-->
                                         <div class="center carousel-item" data-bg-video-slide="false">
 
-                                                        <div class="p-y-2" style="padding-left: 0">
-                                                            <h2 class="mbr-section-title display-1">Innhold</h2>
-                                                            <p>
-                                                            <ul  style="padding-left: 0">
-                                                                <li>1 førstehjelpsbag vannavstøtende</li>
-                                                                <li>1 pinsett</li>
-                                                                <li>1 saks</li>
-                                                                <li>1 varmeteppe</li>
-                                                                <li>1 teiprull</li>
-                                                                <li>1 kompress</li>
-                                                                <li>1 engangshansker</li>
-                                                                <li>1 munn-til-munn-maske</li>
-                                                                <li>1 fatle</li>
-                                                                <li>2 elastiske bandasjer</li>
-                                                                <li>4 plaster store</li>
-                                                                <li>5 gassbind</li>
-                                                                <li>6 sikkerhetsnåler</li>
-                                                                <li>10 våtservietter</li>
-                                                                <li>20 Q-tip</li>
-                                                                <li>30 plaster små</li>
-                                                            </ul>
-                                                            </p>
-                                                        </div>
+                                            <div class="p-y-2" style="padding-left: 0">
+                                                <h2 class="mbr-section-title display-1">Innhold</h2>
+                                                <p>
+                                                <ul style="padding-left: 0">
+                                                    <li>1 førstehjelpsbag vannavstøtende</li>
+                                                    <li>1 pinsett</li>
+                                                    <li>1 saks</li>
+                                                    <li>1 varmeteppe</li>
+                                                    <li>1 teiprull</li>
+                                                    <li>1 kompress</li>
+                                                    <li>1 engangshansker</li>
+                                                    <li>1 munn-til-munn-maske</li>
+                                                    <li>1 fatle</li>
+                                                    <li>2 elastiske bandasjer</li>
+                                                    <li>4 plaster store</li>
+                                                    <li>5 gassbind</li>
+                                                    <li>6 sikkerhetsnåler</li>
+                                                    <li>10 våtservietter</li>
+                                                    <li>20 Q-tip</li>
+                                                    <li>30 plaster små</li>
+                                                </ul>
+                                                </p>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -263,7 +228,14 @@
 <footer class="mbr-small-footer " id="footer1-2">
 
     <div class="container">
-        <div class="breakpoint-alias pull-right text-center col-xs-offset-11">&nbsp;</div>
+        <div class="text-xs-center">
+            <p>
+                Dugnad på 1-2-3 AS
+            </p>
+            <p class="small">
+                org nr 918 924 159
+            </p>
+        </div>
     </div>
 </footer>
 
@@ -346,13 +318,20 @@
 <input name="animation" type="hidden">
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-99844693-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-99844693-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 
